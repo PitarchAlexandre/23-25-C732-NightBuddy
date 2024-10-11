@@ -16,3 +16,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/utilisateurs', function () {
+
+    $utilisateur = new \App\Models\Utilisateur();
+    $utilisateur->uti_nom = 'Renard';
+    $utilisateur->uti_prenom = 'Julie';
+    $utilisateur->uti_email = 'julie.renard@exemple.com';
+    $utilisateur->uti_mdp = bcrypt('juliepassword852');
+    $utilisateur->uti_role = 'passager';
+    $utilisateur->uti_adresse = '19 Rue de Rennes, 75006 Paris';
+    $utilisateur->save();
+
+    return $utilisateur;
+});
