@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/frm-inscription', function () {
+    return view('index');
+});
+
 Route::get('/utilisateurs', function () {
 
     $utilisateur = new \App\Models\Utilisateur();
