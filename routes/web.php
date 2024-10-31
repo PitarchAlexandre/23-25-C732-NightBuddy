@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/evenements', function () {
+    return view('welcome');
+});
+
 Route::get('/utilisateurs', function () {
 
     $utilisateur = new \App\Models\Utilisateur();
@@ -27,7 +31,6 @@ Route::get('/utilisateurs', function () {
     $utilisateur->uti_role = true;
     $utilisateur->uti_adresse = '19 Rue de Rennes, 75006 Paris';
     $utilisateur->save();
-
 
     return $utilisateur;
 });
