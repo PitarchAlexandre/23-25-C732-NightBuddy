@@ -24,7 +24,7 @@ Route::get('/utilisateurs', function () {
     $utilisateur->uti_prenom = 'Julie';
     $utilisateur->uti_email = 'julie.renard@exemple.com';
     $utilisateur->uti_mdp = bcrypt('juliepassword852');
-    $utilisateur->uti_role = 'passager';
+    $utilisateur->uti_role = true;
     $utilisateur->uti_adresse = '19 Rue de Rennes, 75006 Paris';
     $utilisateur->save();
 
