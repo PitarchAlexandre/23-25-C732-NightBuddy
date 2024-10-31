@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('uti_prenom');
             $table->string('uti_email')->unique();
             $table->string('uti_mdp');
-            $table->string('uti_role');
+            $table->boolean('uti_role');
             $table->string('uti_adresse');
             $table->timestamps();
         });
