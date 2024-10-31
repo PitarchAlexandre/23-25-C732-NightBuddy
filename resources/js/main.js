@@ -1,7 +1,7 @@
 /**
  * @author      Kylian Di Gaetano <kylian.digaetano@divcom.ch>
  * @version     0.1
- * @since       2024.06.21
+ * @since       2024.31.10
  *
  */
 
@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const nom = document.getElementById('nom').value.trim();
         const prenom = document.getElementById('prenom').value.trim();
         const adresse = document.getElementById('adresse').value.trim();
-        const tel = document.getElementById('Tel').value.trim();
         const conducteur = document.getElementById('conducteur').checked;
         const email = document.getElementById('Email').value.trim();
         const mdp = document.getElementById('mdp').value.trim();
@@ -47,12 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
             isValid = false;
         }
 
-        // Un email ou un téléphone est obligatoire
-        if (email === '' && tel === '') {
-            displayError('Email', 'Un email ou un téléphone est obligatoire.');
-            displayError('Tel', 'Un email ou un téléphone est obligatoire.');
-            isValid = false;
-        }
 
         // Vérification pour l'email (doit contenir un "@")
         if (email !== '' && !email.includes('@')) {
@@ -60,11 +53,6 @@ document.addEventListener('DOMContentLoaded', function () {
             isValid = false;
         }
 
-        // Vérification pour le téléphone (10 à 14 chiffres)
-        if (tel !== '' && !tel.match(/^[0-9 ]{10,14}$/)) {
-            displayError('Tel', 'Le téléphone n\'est pas valide (ex : 079 000 00 00).');
-            isValid = false;
-        }
 
         // Vérification du mot de passe (doit contenir au moins 6 caractères)
         if (mdp.length < 6) {
