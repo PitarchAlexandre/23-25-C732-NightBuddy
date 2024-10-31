@@ -28,5 +28,6 @@ Route::get('/utilisateurs', function () {
     $utilisateur->uti_adresse = '19 Rue de Rennes, 75006 Paris';
     $utilisateur->save();
 
+
     return $utilisateur;
 });
