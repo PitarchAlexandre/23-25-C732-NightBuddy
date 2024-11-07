@@ -22,8 +22,9 @@ Route::get('/frm-inscription', function () {
 });
 
 Route::get('/utilisateurs', function () {
+
     $datas = \App\Models\Utilisateur::all();
-    dd($datas);
+    return $datas;
 });
 
 Route::get('/participer-evenements', function () {
