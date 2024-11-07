@@ -25,6 +25,17 @@ Route::get('/add-evenement', function () {
     return view('evenement');
 })->name('add-evenement');
 
+
+Route::post('/evenement', function (Request $request) {
+   
+
+   dd("envoi frm");
+})->name('store-evenement');
+
+
+
+
+
 Route::get('/liste', function () {
     return view('listeevenement');
 })->name('liste');

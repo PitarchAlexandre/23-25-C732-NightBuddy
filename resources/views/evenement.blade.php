@@ -10,7 +10,8 @@
     <body>
         <div class="container">
             <h2>Formulaire NightBuddy</h2>
-            <form action="" method="post">
+            <form action="{{route('store-evenement')}}" method="post">
+                @csrf {{--générère un token--}}
                 <div class="form-section">
                     <h3>Informations sur l'événement</h3>
 
