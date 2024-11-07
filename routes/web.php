@@ -19,7 +19,16 @@ Route::get('/', function () {
 
 Route::get('/frm-inscription', function () {
     return view('index');
-});
+})->name('index');
+
+Route::get('/add-evenement', function () {
+    return view('evenement');
+})->name('add-evenement');
+
+Route::get('/liste', function () {
+    return view('listeevenement');
+})->name('liste');
+
 
 Route::get('/utilisateurs', function () {
 
