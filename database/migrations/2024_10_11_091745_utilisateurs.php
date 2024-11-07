@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('uti_mdp');
             $table->boolean('uti_role');
             $table->string('uti_adresse');
+            $table->integer('uti_tel');
             $table->timestamps();
         });
     }

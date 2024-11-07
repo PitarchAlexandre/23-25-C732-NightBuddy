@@ -22,19 +22,23 @@ Route::get('/frm-inscription', function () {
 });
 
 Route::get('/utilisateurs', function () {
-
-    $utilisateur = new \App\Models\Utilisateur();
-    $utilisateur->uti_nom = 'Renard';
-    $utilisateur->uti_prenom = 'Marc';
-    $utilisateur->uti_email = 'marc.renard@exemple.com';
-    $utilisateur->uti_mdp = bcrypt('marcpassword852');
-    $utilisateur->uti_role = true;
-    $utilisateur->uti_adresse = '19 Rue de Rennes, 75006 Paris';
-    $utilisateur->save();
-
-    return $utilisateur;
+    $datas = \App\Models\Utilisateur::all();
+    dd($datas);
 });
 
 Route::get('/participer-evenements', function () {
     //$participationEvent->
 });
+
+/*
+$utilisateur = new \App\Models\Utilisateur();
+$utilisateur->uti_nom = 'Renard';
+$utilisateur->uti_prenom = 'Marc';
+$utilisateur->uti_email = 'marc.renard@exemple.com';
+$utilisateur->uti_mdp = bcrypt('marcpassword852');
+$utilisateur->uti_role = true;
+$utilisateur->uti_adresse = '19 Rue de Rennes, 75006 Paris';
+$utilisateur->save();
+
+return $utilisateur;
+*/
