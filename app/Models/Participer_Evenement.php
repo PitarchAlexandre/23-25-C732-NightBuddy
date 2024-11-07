@@ -10,8 +10,12 @@ class Participer_Evenement extends Model
 {
     use HasFactory;
 
-    public function utilisateur(): HasMany
+    public function utilisateurs()
     {
-        return $this->hasOne('uti_id');
+        return $this->belongsToMany(Utilisateur::class);
+    }
+
+    public function evenements(){
+        return $this->hasMany(Evenement::class);
     }
 }
