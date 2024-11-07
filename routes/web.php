@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/evenements', function () {
-    return view('welcome');
+Route::get('/frm-inscription', function () {
+    return view('index');
 });
 
 Route::get('/utilisateurs', function () {
