@@ -20,6 +20,8 @@ Route::get('/', function () {
 Route::get('/frm-inscription', function () {
     return view('index');
 })->name('index');
+// Appelle le controleur qui ajoutera un nouvel utilisateur
+Route::post('/utilisateurs', [App\Http\Controllers\UtilisateurController::class, 'store'])->name('utilisateurs.store')  ;
 
 Route::get('/add-evenement', function () {
     return view('evenement');

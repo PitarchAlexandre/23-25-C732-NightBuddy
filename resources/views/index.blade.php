@@ -11,11 +11,12 @@
         <!-- Zone de texte pour le formulaire de demande de devis-->
     <div class="container">
         <h2>Inscription NightBuddy</h2>
-        <form action="" method="post">
+        <form action="{{route('utilisateurs.store')}}" method="post">
+            @csrf {{--générère un token--}}
             <div class="form-section">
                 <h3>Informations personnelles</h3>
                 <label for="nom" autofocus                                                                                                                                                                                                                                                                                            >Nom :</label>
-                <input type="text" id="nom" name="txt-nom" autofocus>
+                <input type="text" id="nom" name="txt_nom" autofocus>
 
                 <label for="prenom">Prénom :</label>
                 <input type="text" id="prenom" name="txt-prenom">
