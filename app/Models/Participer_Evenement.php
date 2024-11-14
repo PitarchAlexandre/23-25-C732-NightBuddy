@@ -10,4 +10,7 @@ class Participer_Evenement extends Model
 {
     use HasFactory;
 
+    // Laravel met par défaut la table au pluriel ('participer_evenementS'), donc il faut la renommer
+    //
+    protected $table = 'participer_evenement';
 }

@@ -21,7 +21,7 @@ Route::get('/frm-inscription', function () {
     return view('index');
 });
 
-Route::get('/utilisateurs', function () {
+Route::get('/utilisateursRouteWeb', function () {
 
     $datas = \App\Models\Utilisateur::all();
     return $datas;
