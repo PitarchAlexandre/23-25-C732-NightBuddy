@@ -28,7 +28,8 @@ Route::get('/utilisateurs', function () {
 });
 
 Route::get('/participer-evenements', function () {
-    //$participationEvent->
+    $participationEvent = \App\Models\Participer_Evenement::all();
+    return $participationEvent;
 });
 
 /*
