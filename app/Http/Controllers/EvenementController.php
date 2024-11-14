@@ -45,7 +45,13 @@ class EvenementController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $updateEvenement = \App\Models\Evenement::findOrFail($id);
+        $updateEvenement->eve_nom = $request->eve_nom;
+        $updateEvenement->eve_date = $request->eve_date;
+        $updateEvenement->eve_lieu = $request->eve_lieu;
+        $updateEvenement->eve_theme_musique = $request->eve_theme_musique;
+        $updateEvenement->update();
+        return $updateEvenement;
     }
 
     /**
@@ -53,6 +59,7 @@ class EvenementController extends Controller
      */
     public function destroy(string $id)
     {
-
+        $effacerEvenement = \App\Models\Evenement::findOrFail($id);
+        $effacerEvenement->delete();
     }
 }
