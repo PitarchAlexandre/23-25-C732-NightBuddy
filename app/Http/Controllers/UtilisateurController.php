@@ -20,7 +20,6 @@ class UtilisateurController extends Controller
      */
     public function store(Request $request)
     {
-       dd($request->txt_nom);
 
         $newUtilisateur = new \App\Models\Utilisateur();
         $newUtilisateur->uti_nom = $request->uti_nom;
