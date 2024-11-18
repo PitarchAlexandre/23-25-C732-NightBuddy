@@ -22,7 +22,7 @@ class UtilisateurController extends Controller
     {
 
         $newUtilisateur = new \App\Models\Utilisateur();
-        $newUtilisateur->uti_nom = $request->uti_nom;
+        $newUtilisateur->uti_nom = $request->txt_nom;
         $newUtilisateur->uti_prenom = $request->uti_prenom;
         $newUtilisateur->uti_email = $request->uti_email;
         $newUtilisateur->uti_mdp = $request->uti_mdp;

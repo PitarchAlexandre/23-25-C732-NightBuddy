@@ -19,25 +19,25 @@
                 <input type="text" id="nom" name="txt_nom" autofocus>
 
                 <label for="prenom">Prénom :</label>
-                <input type="text" id="prenom" name="txt-prenom">
+                <input type="text" id="prenom" name="txt_prenom">
 
                 <label for="adresse">Adresse :</label>
-                <input type="text" id="adresse" name="txt-adresse" placeholder="Rue de la ...">
+                <input type="text" id="adresse" name="txt_adresse" placeholder="Rue de la ...">
 
                 <label for="Tel">Téléphone :</label>
-                <input type="text" id="Tel" name="txt-Tel" placeholder="079 000 00 00">
+                <input type="text" id="Tel" name="txt_tel" placeholder="079 000 00 00">
 
                 <label for="conducteur">Conducteur</label>
-                <input type="checkbox" id="conducteur" name="chk-conducteur">
+                <input type="checkbox" id="conducteur" name="chk_conducteur">
 
             </div>
                     <HR>
             <h2>Crée un compte</h2>
             <label for="Email">E-mail :</label>
-            <input type="text" id="Email" name="txt-email" placeholder="exemple@ex.gl">
+            <input type="text" id="Email" name="txt_email" placeholder="exemple@ex.gl">
 
             <label for="mdp">Mots de passe</label>
-            <input type="text" id="mdp" name="txt-mdp" placeholder="Mots de passe">
+            <input type="text" id="mdp" name="txt_mdp" placeholder="Mots de passe">
                 <HR>
             <button type="submit" class="form-button" name="btn-envoyer" value="envoi">Envoyer</button>
         </form>
