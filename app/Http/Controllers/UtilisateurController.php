@@ -25,8 +25,8 @@ class UtilisateurController extends Controller
         $newUtilisateur->uti_nom = $request->txt_nom;
         $newUtilisateur->uti_prenom = $request->txt_prenom;
         $newUtilisateur->uti_email = $request->txt_email;
-        $newUtilisateur->uti_mdp = $request->txt_mdp;
-        $newUtilisateur->uti_role = $request->chk_conducteur;
+        $newUtilisateur->uti_mdp = $request->txt_mdp;// Chiffrement du mot de passe bcrypt($validated['txt_mdp']),
+        $newUtilisateur->uti_role = $request->chk_conducteur ? true : false;
         $newUtilisateur->uti_adresse = $request->txt_adresse;
         $newUtilisateur->uti_tel = $request->txt_tel;
         $newUtilisateur->save();
