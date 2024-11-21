@@ -37,7 +37,7 @@
             <input type="text" id="Email" name="txt_email" placeholder="exemple@ex.gl">
 
             <label for="mdp">Mots de passe</label>
-            <input type="text" id="mdp" name="txt_mdp" placeholder="Mots de passe">
+            <input type="password" id="mdp" name="txt_mdp" placeholder="Mots de passe">
                 <HR>
             <button type="submit" class="form-button" name="btn-envoyer" value="envoi">Envoyer</button>
         </form>
