@@ -1,7 +1,8 @@
-    <?php
+<?php
 
     namespace App\Http\Controllers;
 
+    use App\Models\Participer_Evenement;
     use Illuminate\Http\Request;
 
     class Participer_EvenementController extends Controller
@@ -11,7 +12,8 @@
          */
         public function index()
         {
-            //
+            $tableAssociativesPartEvebt = \App\Models\Participer_Evenement::all();
+            return $tableAssociativesPartEvebt;
         }
 
         /**
@@ -19,7 +21,12 @@
          */
         public function store(Request $request)
         {
-            //
+            // Créer une nouvelle instance du modèle Participer_Evenement
+            $participation = new Participer_Evenement();
+            $participation->par_uti_id = $request->par_uti_id; // ID de l'utilisateur
+            $participation->par_eve_id = $request->par_eve_id; // ID de l'événement
+            $participation->save();
+            return $participation;
         }
 
         /**
