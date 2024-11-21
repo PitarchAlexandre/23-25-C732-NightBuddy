@@ -17,15 +17,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route formulaire utilisateur
 Route::get('/frm-inscription', function () {
     return view('index');
 })->name('index');
 // Appelle le controleur qui ajoutera un nouvel utilisateur
 Route::post('/utilisateurs', [App\Http\Controllers\UtilisateurController::class, 'store'])->name('utilisateurs.store')  ;
 
-Route::get('/add-evenement', function () {
-    return view('evenement');
-})->name('add-evenement');
+// Route formulaire évènement
+Route::get('/ajoutevenement', function () {
+    return view('ajoutevenement');
+})->name('ajoutevenement');
+Route::post('/evenements', [App\Http\Controllers\EvenementController::class, 'store'])->name('evenements.store')  ;
 
 
 Route::post('/evenement', function (Request $request) {

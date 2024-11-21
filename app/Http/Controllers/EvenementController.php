@@ -23,10 +23,10 @@ class EvenementController extends Controller
     public function store(Request $request)
     {
         $newEvenement = new \App\Models\Evenement();
-        $newEvenement->eve_nom = $request->eve_nom;
-        $newEvenement->eve_date = $request->eve_date;
-        $newEvenement->eve_lieu = $request->eve_lieu;
-        $newEvenement->eve_theme_musique = $request->eve_theme_musique;
+        $newEvenement->eve_nom = $request->txt_nom_evenement;
+        $newEvenement->eve_date = $request->date_evenement;
+        $newEvenement->eve_lieu = $request->txt_lieu_evenement;
+        $newEvenement->eve_theme_musique = $request->txt_theme_musique_evenement;
         $newEvenement->save();
         return $newEvenement;
     }
