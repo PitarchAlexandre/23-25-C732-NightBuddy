@@ -17,21 +17,37 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route formulaire utilisateur
 Route::get('/frm-inscription', function () {
     return view('index');
 })->name('index');
 
-Route::get('/add-evenement', function () {
-    return view('evenement');
-})->name('add-evenement');
+// Appelle le controleur qui ajoutera un nouvel utilisateur
+Route::post('/utilisateurs', [App\Http\Controllers\UtilisateurController::class, 'store'])->name('utilisateurs.store')  ;
+
+// Route formulaire évènement
+Route::get('/ajoutevenement', function () {
+    return view('ajoutevenement');
+})->name('ajoutevenement');
+Route::post('/evenements', [App\Http\Controllers\EvenementController::class, 'store'])->name('evenements.store')  ;
 
 
+// Route pour afficher la page des événements
+Route::get('/evenements', function () {
+    // Récupérer tous les événements
+    $evenements = \App\Models\Evenement::all();
+    // Récupérer tous les utilisateurs (ou vous pouvez appliquer des filtres si nécessaire)
+    $utilisateurs = \App\Models\Utilisateur::all();
+    return view('evenements', compact('evenements', 'utilisateurs'));
+});
+
+Route::post('/participerevenement', [App\Http\Controllers\Participer_EvenementController::class, 'store'])->name('participerevenement.store');
+
+/*
 Route::post('/evenement', function (Request $request) {
-   
-
-   dd("envoi frm");
+    dd("envoi frm");
 })->name('store-evenement');
-
+*/
 
 
 

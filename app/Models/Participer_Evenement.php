@@ -10,8 +10,7 @@ class Participer_Evenement extends Model
 {
     use HasFactory;
 
-    public function utilisateur(): HasMany
-    {
-        return $this->hasOne('uti_id');
-    }
+    // Laravel met par défaut la table au pluriel ('participer_evenementS'), donc il faut la renommer
+    // au singulier puisque je l'ai nommée au singulier dans ma base de donnée
+    protected $table = 'participer_evenement';
 }

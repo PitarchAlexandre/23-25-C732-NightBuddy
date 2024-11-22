@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('participer_evenement', function (Blueprint $table) {
             $table->id('par_id');
             $table->foreignId('par_uti_id');
+            $table->foreignId('par_eve_id');
             $table->timestamps();
         });
     }
