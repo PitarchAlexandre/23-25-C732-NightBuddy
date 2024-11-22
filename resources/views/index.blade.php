@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NightBuddy</title>
+    <title>NightBuddy - Inscription</title>
     <link rel="stylesheet" href="{{ asset('style.css') }}">
-    <link rel="icon" href="img/iconweb.ico" type="image/x-icon"> <!-- Lien vers l'icône -->
 </head>
-    <body>
-        <!-- Zone de texte pour le formulaire de demande de devis-->
+<body>
     <div class="container">
         <h2>Inscription NightBuddy</h2>
+        
         <form action="{{route('utilisateurs.store')}}" method="post">
             @csrf {{--générère un token--}}
             <div class="form-section">
@@ -29,29 +28,20 @@
 
                 <label for="conducteur">Conducteur</label>
                 <input type="checkbox" id="conducteur" name="chk_conducteur">
-
             </div>
-                    <HR>
-            <h2>Crée un compte</h2>
+            <hr>
+            
+            <h2>Créer un compte</h2>
             <label for="Email">E-mail :</label>
+
             <input type="text" id="Email" name="txt_email" placeholder="exemple@ex.gl">
 
             <label for="mdp">Mots de passe</label>
             <input type="password" id="mdp" name="txt_mdp" placeholder="Mots de passe">
                 <HR>
+
             <button type="submit" class="form-button" name="btn-envoyer" value="envoi">Envoyer</button>
         </form>
     </div>
-
-        <footer>
-            <hr>
-            <!-- Partie avec le CopyRight -->
-            <div class="footer-credential">
-                &copy; 2024 NightBuddy. Tous droits résérvées.
-            </div>
-        </footer>
-    <!--Lien avec le JS -->
-    <script src="js/main.js"></script>
-    </body>
+</body>
 </html>
-
