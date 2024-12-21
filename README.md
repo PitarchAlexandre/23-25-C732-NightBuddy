@@ -34,6 +34,22 @@
 
 <hr>
 
+<h2>Modèles (MCD & MLD)</h2>
+
+<p align="center">
+    <a href="Doc/Schemas/MCD.png">
+        <img src="Doc/Schemas/MCD.png" alt="MCD - Modèle Conceptuel de Données" width="600">
+    </a>
+</p>
+
+<p align="center">
+    <a href="Doc/Schemas/MLD.png">
+        <img src="Doc/Schemas/MLD.png" alt="MLD - Modèle Logique de Données" width="600">
+    </a>
+</p>
+
+<hr>
+
 <h2>Technologies utilisées</h2>
 
 <ul>
@@ -63,6 +79,11 @@
 
 <hr>
 
+<h2>Conclusion</h2>
+<p>Ce projet a été une expérience enrichissante qui nous a permis de mieux comprendre le processus de création d’une API, de structurer un cahier des charges et de travailler en équipe avec un outil de gestion agile comme Kanban. Nous sommes satisfaits du résultat, notamment grâce à l’apprentissage de Fortify et à la création d’une API fonctionnelle.</p>
+
+<hr>
+
 <p>Ce projet a été une expérience enrichissante qui nous a permis de mieux comprendre le processus de création d’une API, de structurer un cahier des charges et de travailler en équipe avec un outil de gestion agile comme Kanban. Nous sommes satisfaits du résultat, notamment grâce à l’apprentissage de Fortify et à la création d’une API fonctionnelle.</p>
 
 <h2>Contributeurs</h2>
@@ -71,20 +92,6 @@
     <li>Kylian Di Gaetano</li>
     <li>Alexandre Pitarch</li>
 </ul>
-
-<h2>Modèles (MCD & MLD)</h2>
-
-<p align="center">
-    <a href="Doc/Schemas/MCD.png">
-        <img src="Doc/Schemas/MCD.png" alt="MCD - Modèle Conceptuel de Données" width="600">
-    </a>
-</p>
-
-<p align="center">
-    <a href="Doc/Schemas/MLD.png">
-        <img src="Doc/Schemas/MLD.png" alt="MLD - Modèle Logique de Données" width="600">
-    </a>
-</p>
 
 <h2>Configuration du projet</h2>
 
@@ -103,15 +110,19 @@
 <code>cp .env.example .env</code>
 <p>Configurez les paramètres de votre environnement (base de données, clés API, etc.) en modifiant le fichier `.env`.</p>
 
-<h3>4. Migration de la base de données</h3>
+<h3>4. Générer la clé application</h3>
+<p>Pour générer la clé application nécessaire pour le chiffrement, exécutez la commande :</p>
+<code>php artisan key:generate</code>
+
+<h3>5. Migration de la base de données</h3>
 <p>Exécutez les migrations pour créer la base de données :</p>
 <code>php artisan migrate</code>
 
-<h3>5. Serveur de développement</h3>
+<h3>6. Serveur de développement</h3>
 <p>Démarrez le serveur de développement Laravel :</p>
 <code>php artisan serve</code>
 <p>Accédez à l’application via votre navigateur : <a href="http://localhost:8000">http://localhost:8000</a></p>
 
 <hr>
 
-<p>Ce projet a été une expérience enrichissante qui nous a permis de mieux comprendre le processus de création d’une API, de structurer un cahier des charges et de travailler en équipe avec un outil de gestion agile comme Kanban. Nous sommes satisfaits du résultat, notamment grâce à l’apprentissage de Fortify et à la création d’une API fonctionnelle.</p>
+
