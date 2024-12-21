@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NightBuddy - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f8f9fa;
-            color: #333;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        h2 {
-            margin-top: 20px;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        code {
-            background-color: #f5f5f5;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        .highlight {
-            background-color: #e9ecef;
-            padding: 10px;
-            border-radius: 4px;
-        }
-    </style>
-</head>
-<body>
+
 
 <h1>NightBuddy 🚗🎶</h1>
 
@@ -140,5 +104,4 @@
 
 <p>Ce projet a été une expérience enrichissante qui nous a permis de mieux comprendre le processus de création d’une API, de structurer un cahier des charges et de travailler en équipe avec un outil de gestion agile comme Kanban. Nous sommes satisfaits du résultat, notamment grâce à l’apprentissage de Fortify et à la création d’une API fonctionnelle.</p>
 
-</body>
-</html>
+
