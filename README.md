@@ -1,9 +1,6 @@
 <p align="center">
     <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
-    </a>
-    <a href="https://laravel.com](https://laravel.com/docs/11.x/fortify" target="_blank">
-    <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fi.imgur.com%2Fx8IMrry.png"    width="600" alt="Image Imgur">
+    <img src="https://www.ismaail.com/uploads/9a30e503-e6ce-41ef-956a-a1cbb2e578b0/jCjnyX8N3Iro9jUw45bfeNWIuzq3RW-metaT1lTbmZDMnBzcUxudWR5bUtHV1pMZ0tTbXR6Q1NqMk8zYTBnakZXbS5wbmc=--large.webp" width="400" alt="Laravel Fortify Logos">
     </a>
 </p>
 
