@@ -1,8 +1,8 @@
 <h1>NightBuddy 🚗🎶</h1>
 
-<p>Dans le cadre du cours <strong>C732</strong> (gestion), nous devions réaliser un cahier des charges et un Proof of Concept (POC). Nous avons choisi de développer <strong>NightBuddy</strong>, un site et une API pour le covoiturage lors d’événements nocturnes. L’objectif est de faciliter les déplacements vers les événements et d’encourager le covoiturage.</p>
+<p>Dans le cadre du cours <strong>C732</strong> (gestion), nous devions réaliser un cahier des charges et un Proof of Concept (POC). Nous avons choisi de développer <strong>NightBuddy</strong>, un site et une API pour le covoiturage lors d’événements nocturnes. L’objectif est de faciliter les déplacements vers les événements et d’encourager le covoiturage. Les compétences acquises parallèlement dans le cours <strong>C132-API</strong> nous ont aidé à accomplir cet objectif.</p>
 
-<p>Les organisateurs d’événements peuvent intégrer cette API à leurs sites web pour inciter les participants à utiliser le covoiturage et ainsi rendre les événements plus accessibles, tout en réduisant les contraintes liées à la conduite.</p>
+<p>Les organisateurs d’événements peuvent intégrer cette API à leurs sites web pour encourager les participants à utiliser le covoiturage et ainsi rendre les événements plus accessibles, tout en réduisant les contraintes liées à la conduite.</p>
 
 <p align="center">
     <a href="https://laravel.com" target="_blank">
@@ -34,17 +34,23 @@
 
 <hr>
 
-<h2>Modèles (MCD & MLD)</h2>
-
+<h2>Modèles</h2>
+<p>Modèle Conceptuel de Données (MCD):</p>
 <p align="center">
     <a href="Doc/Schemas/MCD.png">
         <img src="Doc/Schemas/MCD.png" alt="MCD - Modèle Conceptuel de Données" width="600">
     </a>
 </p>
-
+<p>Modèle Logique de Données (MLD):</p>
 <p align="center">
     <a href="Doc/Schemas/MLD.png">
         <img src="Doc/Schemas/MLD.png" alt="MLD - Modèle Logique de Données" width="600">
+    </a>
+</p>
+<p>Use Case :</p>
+<p align="center">
+    <a href="Doc/Schemas/use-case.png">
+        <img src="Doc/Schemas/UseCase.png" alt="Use Case" width="600">
     </a>
 </p>
 
@@ -74,7 +80,7 @@
 <h2>Fonctionnalités manquées (pour le futur)</h2>
 
 <ul>
-    <li><strong>Intégration Google Maps</strong>: Nous avons voulu intégrer Google Maps pour la gestion des lieux et itinéraires de covoiturage, mais avons été freinés par les coûts. Nous avons cherché des alternatives gratuites, mais cela n’a pas été conclu en raison du manque de temps.</li>
+    <li><strong>Intégration Google Maps</strong>: Nous avons voulu intégrer Google Maps pour la gestion des lieux et itinéraires de covoiturage, mais avons été freinés par les coûts. Nous avons cherché des alternatives gratuites, mais cela n’a pas été conclu en raison du manque de temps. Nous aurions aussi voulu séparer les contrôleurs des API et ajouter Sanctum, bibliothèque que nous avons utilisé dans le cours C132, mais nous n'avons pas pu non plus dû au manque de temps.</li>
 </ul>
 
 <hr>
@@ -83,8 +89,6 @@
 <p>Ce projet a été une expérience enrichissante qui nous a permis de mieux comprendre le processus de création d’une API, de structurer un cahier des charges et de travailler en équipe avec un outil de gestion agile comme Kanban. Nous sommes satisfaits du résultat, notamment grâce à l’apprentissage de Fortify et à la création d’une API fonctionnelle.</p>
 
 <hr>
-
-<p>Ce projet a été une expérience enrichissante qui nous a permis de mieux comprendre le processus de création d’une API, de structurer un cahier des charges et de travailler en équipe avec un outil de gestion agile comme Kanban. Nous sommes satisfaits du résultat, notamment grâce à l’apprentissage de Fortify et à la création d’une API fonctionnelle.</p>
 
 <h2>Contributeurs</h2>
 <p>Ce projet a été développé par :</p>
@@ -124,5 +128,3 @@
 <p>Accédez à l’application via votre navigateur : <a href="http://localhost:8000">http://localhost:8000</a></p>
 
 <hr>
-
-
