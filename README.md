@@ -71,9 +71,9 @@
 
 <ul>
     <li><strong>Laravel</strong>: Nous avons appris à utiliser Laravel en parallèle du projet, grâce au cours C132-API. Ce projet nous a permis de consolider nos connaissances.</li> 
-    <li><strong>Fortify</strong>: Nous avons utilisé la bibliothèque Fortify pour simplifier l’authentification.</li>
+    <li><strong>Fortify</strong>: Nous avons utilisé Fortify pour simplifier l’authentification. Cette bibliothèque s’est avérée simple d’utilisation et nous a permis d’apprendre une nouvelle compétence que nous n’avions jamais utilisée auparavant.</li>
     <li><strong>Organisation avec Kanban</strong>: Nous manquions de connaissances au début, et nous avons utilisé un Kanban dans Microsoft Teams pour gérer les tâches au fil de l’avancement. Cela nous a permis d’avancer étape par étape et d’ajouter des tâches au fur et à mesure. Nous n’aurions pas pu utiliser un diagramme de Gantt, par exemple, car nous n’avions pas suffisamment de connaissances pour planifier les tâches au départ.</li>
-    <li><strong>API et approche</strong>: Nous avons l'opportunité de consilider nos connaissances sur les APIs.</li>
+    <li><strong>API et approche</strong>: Nous avons eu l'opportunité de consilider nos connaissances sur les APIs.</li>
 </ul>
 
 <hr>
