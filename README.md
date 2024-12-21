@@ -1,14 +1,53 @@
-<p align="center">
-    <a href="https://laravel.com" target="_blank">
-    <img src="https://www.ismaail.com/uploads/9a30e503-e6ce-41ef-956a-a1cbb2e578b0/jCjnyX8N3Iro9jUw45bfeNWIuzq3RW-metaT1lTbmZDMnBzcUxudWR5bUtHV1pMZ0tTbXR6Q1NqMk8zYTBnakZXbS5wbmc=--large.webp" width="400" alt="Laravel Fortify Logos">
-    </a>
-</p>
-<p><a href="https://laravel.com](https://laravel.com/docs/11.x/fortify" target="_blank">Doc fortify</a></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NightBuddy - README</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        code {
+            background-color: #f5f5f5;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .highlight {
+            background-color: #e9ecef;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
 <h1>NightBuddy 🚗🎶</h1>
 
 <p>Dans le cadre du cours <strong>C732</strong> (gestion), nous devions réaliser un cahier des charges et un Proof of Concept (POC). Nous avons choisi de développer <strong>NightBuddy</strong>, un site et une API pour le covoiturage lors d’événements nocturnes. L’objectif est de faciliter les déplacements vers les événements et d’encourager le covoiturage.</p>
 
 <p>Les organisateurs d’événements peuvent intégrer cette API à leurs sites web pour inciter les participants à utiliser le covoiturage et ainsi rendre les événements plus accessibles, tout en réduisant les contraintes liées à la conduite.</p>
+
+<p align="center">
+    <a href="https://laravel.com" target="_blank">
+        <img src="https://www.ismaail.com/uploads/9a30e503-e6ce-41ef-956a-a1cbb2e578b0/jCjnyX8N3Iro9jUw45bfeNWIuzq3RW-metaT1lTbmZDMnBzcUxudWR5bUtHV1pMZ0tTbXR6Q1NqMk8zYTBnakZXbS5wbmc=--large.webp" width="400" alt="Laravel Fortify Logos">
+    </a>
+</p>
+<p><a href="https://laravel.com/docs/11.x/fortify" target="_blank">Documentation Fortify</a></p>
 
 <hr>
 
@@ -64,11 +103,18 @@
 
 <p>Ce projet a été une expérience enrichissante qui nous a permis de mieux comprendre le processus de création d’une API, de structurer un cahier des charges et de travailler en équipe avec un outil de gestion agile comme Kanban. Nous sommes satisfaits du résultat, notamment grâce à l’apprentissage de Fortify et à la création d’une API fonctionnelle.</p>
 
+<h2>Contributeurs</h2>
+<p>Ce projet a été développé par :</p>
+<ul>
+    <li>Kylian Di Gaetano</li>
+    <li>Alexandre Pitarch</li>
+</ul>
+
 <h2>Configuration du projet</h2>
 
 <h3>1. Cloner le dépôt</h3>
 <p>Clonez le dépôt Git depuis GitHub :</p>
-<code>git clone https://github.com/username/nightbuddy.git</code>
+<code>git clone https://github.com/PitarchAlexandre/23-25-C732-NightBuddy.git</code>
 
 <h3>2. Installation des dépendances</h3>
 <p>Accédez au répertoire du projet :</p>
@@ -94,3 +140,5 @@
 
 <p>Ce projet a été une expérience enrichissante qui nous a permis de mieux comprendre le processus de création d’une API, de structurer un cahier des charges et de travailler en équipe avec un outil de gestion agile comme Kanban. Nous sommes satisfaits du résultat, notamment grâce à l’apprentissage de Fortify et à la création d’une API fonctionnelle.</p>
 
+</body>
+</html>
