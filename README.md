@@ -1,66 +1,107 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+
+
+<h1>NightBuddy 🚗🎶</h1>
+
+<p>Dans le cadre du cours <strong>C732</strong> (gestion), nous devions réaliser un cahier des charges et un Proof of Concept (POC). Nous avons choisi de développer <strong>NightBuddy</strong>, un site et une API pour le covoiturage lors d’événements nocturnes. L’objectif est de faciliter les déplacements vers les événements et d’encourager le covoiturage.</p>
+
+<p>Les organisateurs d’événements peuvent intégrer cette API à leurs sites web pour inciter les participants à utiliser le covoiturage et ainsi rendre les événements plus accessibles, tout en réduisant les contraintes liées à la conduite.</p>
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <a href="https://laravel.com" target="_blank">
+        <img src="https://www.ismaail.com/uploads/9a30e503-e6ce-41ef-956a-a1cbb2e578b0/jCjnyX8N3Iro9jUw45bfeNWIuzq3RW-metaT1lTbmZDMnBzcUxudWR5bUtHV1pMZ0tTbXR6Q1NqMk8zYTBnakZXbS5wbmc=--large.webp" width="400" alt="Laravel Fortify Logos">
+    </a>
 </p>
+<p><a href="https://laravel.com/docs/11.x/fortify" target="_blank">Documentation Fortify</a></p>
 
-## About Laravel
+<hr>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h2>Objectifs</h2>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<ul>
+    <li><strong>Faciliter les déplacements nocturnes</strong>: Gestion du covoiturage pour les événements. Coordination simplifiée entre participants.</li>
+    <li><strong>API pour les organisateurs</strong>: Créer, gérer et partager des événements via une API. Solution réutilisable pour différents types d’événements.</li>
+    <li><strong>Thèmes musicaux personnalisables</strong>: Les organisateurs peuvent configurer les thèmes musicaux selon leurs préférences.</li>
+</ul>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<hr>
 
-## Learning Laravel
+<h2>Fonctionnalités principales</h2>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<ul>
+    <li><strong>Création et gestion d’événements</strong>: Ajouter/modifier des événements avec nom, lieu, date et thèmes musicaux.</li>
+    <li><strong>Covoiturage</strong>: Conducteurs - Proposer des trajets. Participants - Réserver une place en fonction des disponibilités.</li>
+    <li><strong>Gestion des utilisateurs</strong>: Inscription, connexion et profils.</li>
+    <li><strong>Invitations</strong>: Envoyer et suivre les réponses des invités.</li>
+</ul>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<hr>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<h2>Technologies utilisées</h2>
 
-## Laravel Sponsors
+<ul>
+    <li><strong>Framework</strong>: Laravel 10</li>
+    <li><strong>Authentification</strong>: Laravel Fortify</li>
+    <li><strong>Base de données</strong>: MySQL</li>
+    <li><strong>Organisation</strong>: Kanban via Microsoft Teams</li>
+</ul>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+<hr>
 
-### Premium Partners
+<h2>Ce que nous avons appris</h2>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+<ul>
+    <li><strong>Laravel et Fortify</strong>: Nous avons découvert Laravel en parallèle du projet, grâce au cours C132-API. Fortify nous a permis de simplifier l’authentification.</li>
+    <li><strong>Organisation avec Kanban</strong>: Nous manquions de connaissances au début, et nous avons utilisé un Kanban dans Microsoft Teams pour gérer les tâches au fil de l’avancement. Cela nous a permis d’avancer étape par étape et d’ajouter des tâches au fur et à mesure. Nous n’aurions pas pu utiliser un diagramme de Gantt, par exemple, car nous n’avions pas suffisamment de connaissances pour planifier les tâches au départ.</li>
+    <li><strong>API et approche</strong>: Nous aurions dû séparer les contrôleurs API et web, mais nous avons dû regrouper les deux à cause du manque de temps. Nous avons également envisagé d’utiliser Sanctum pour sécuriser les API, mais cela n’a pas pu être mis en place faute de temps et en raison des coûts associés à l’API de Google Maps.</li>
+</ul>
 
-## Contributing
+<hr>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<h2>Fonctionnalités manquées (pour le futur)</h2>
 
-## Code of Conduct
+<ul>
+    <li><strong>Intégration Google Maps</strong>: Nous avons voulu intégrer Google Maps pour la gestion des lieux et itinéraires de covoiturage, mais avons été freinés par les coûts. Nous avons cherché des alternatives gratuites, mais cela n’a pas été conclu en raison du manque de temps.</li>
+</ul>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<hr>
 
-## Security Vulnerabilities
+<p>Ce projet a été une expérience enrichissante qui nous a permis de mieux comprendre le processus de création d’une API, de structurer un cahier des charges et de travailler en équipe avec un outil de gestion agile comme Kanban. Nous sommes satisfaits du résultat, notamment grâce à l’apprentissage de Fortify et à la création d’une API fonctionnelle.</p>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<h2>Contributeurs</h2>
+<p>Ce projet a été développé par :</p>
+<ul>
+    <li>Kylian Di Gaetano</li>
+    <li>Alexandre Pitarch</li>
+</ul>
 
-## License
+<h2>Configuration du projet</h2>
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<h3>1. Cloner le dépôt</h3>
+<p>Clonez le dépôt Git depuis GitHub :</p>
+<code>git clone https://github.com/PitarchAlexandre/23-25-C732-NightBuddy.git</code>
+
+<h3>2. Installation des dépendances</h3>
+<p>Accédez au répertoire du projet :</p>
+<code>cd nightbuddy</code>
+<p>Installez les dépendances avec Composer :</p>
+<code>composer install</code>
+
+<h3>3. Configuration de l'environnement</h3>
+<p>Créez un fichier `.env` basé sur le fichier `.env.example` :</p>
+<code>cp .env.example .env</code>
+<p>Configurez les paramètres de votre environnement (base de données, clés API, etc.) en modifiant le fichier `.env`.</p>
+
+<h3>4. Migration de la base de données</h3>
+<p>Exécutez les migrations pour créer la base de données :</p>
+<code>php artisan migrate</code>
+
+<h3>5. Serveur de développement</h3>
+<p>Démarrez le serveur de développement Laravel :</p>
+<code>php artisan serve</code>
+<p>Accédez à l’application via votre navigateur : <a href="http://localhost:8000">http://localhost:8000</a></p>
+
+<hr>
+
+<p>Ce projet a été une expérience enrichissante qui nous a permis de mieux comprendre le processus de création d’une API, de structurer un cahier des charges et de travailler en équipe avec un outil de gestion agile comme Kanban. Nous sommes satisfaits du résultat, notamment grâce à l’apprentissage de Fortify et à la création d’une API fonctionnelle.</p>
+
+
