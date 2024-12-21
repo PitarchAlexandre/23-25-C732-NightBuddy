@@ -105,11 +105,15 @@
 <code>cp .env.example .env</code>
 <p>Configurez les paramètres de votre environnement (base de données, clés API, etc.) en modifiant le fichier `.env`.</p>
 
-<h3>4. Migration de la base de données</h3>
+<h3>4. Générer la clé application</h3>
+<p>Pour générer la clé application nécessaire pour le chiffrement, exécutez la commande :</p>
+<code>php artisan key:generate</code>
+
+<h3>5. Migration de la base de données</h3>
 <p>Exécutez les migrations pour créer la base de données :</p>
 <code>php artisan migrate</code>
 
-<h3>5. Serveur de développement</h3>
+<h3>6. Serveur de développement</h3>
 <p>Démarrez le serveur de développement Laravel :</p>
 <code>php artisan serve</code>
 <p>Accédez à l’application via votre navigateur : <a href="http://localhost:8000">http://localhost:8000</a></p>
