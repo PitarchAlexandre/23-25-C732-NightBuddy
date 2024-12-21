@@ -134,4 +134,3 @@
 <h2>À noter</h2> 
 <p>Le fichier <strong>Doc</strong> contient des fichiers volumineux, incluant une vidéo et une présentation PowerPoint utilisés lors de notre présentation. Ces fichiers sont disponibles dans le dossier : \Doc\Presentation.</p>
 
-<hr>
