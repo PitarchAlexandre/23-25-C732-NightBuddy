@@ -34,6 +34,22 @@
 
 <hr>
 
+<h2>Modèles (MCD & MLD)</h2>
+
+<p align="center">
+    <a href="Doc/Schemas/MCD.png">
+        <img src="Doc/Schemas/MCD.png" alt="MCD - Modèle Conceptuel de Données" width="600">
+    </a>
+</p>
+
+<p align="center">
+    <a href="Doc/Schemas/MLD.png">
+        <img src="Doc/Schemas/MLD.png" alt="MLD - Modèle Logique de Données" width="600">
+    </a>
+</p>
+
+<hr>
+
 <h2>Technologies utilisées</h2>
 
 <ul>
@@ -71,20 +87,6 @@
     <li>Kylian Di Gaetano</li>
     <li>Alexandre Pitarch</li>
 </ul>
-
-<h2>Modèles (MCD & MLD)</h2>
-
-<p align="center">
-    <a href="Doc/Schemas/MCD.png">
-        <img src="Doc/Schemas/MCD.png" alt="MCD - Modèle Conceptuel de Données" width="600">
-    </a>
-</p>
-
-<p align="center">
-    <a href="Doc/Schemas/MLD.png">
-        <img src="Doc/Schemas/MLD.png" alt="MLD - Modèle Logique de Données" width="600">
-    </a>
-</p>
 
 <h2>Configuration du projet</h2>
 
