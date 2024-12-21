@@ -1,0 +1,411 @@
+/* Mise en forme générale pour tous les éléments */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.ancre-login {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    transition: font-size 0.3s ease;
+}
+
+.ancre-login:hover {
+    font-size: 24px;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Barre de navigation */
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #4d4d4d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+/* Logo */
+.nav-header {
+    font-size: 22px;
+    color: #fff;
+
+}
+
+.nav-title {
+    font-size: 22px;
+    color: #fff;
+}
+
+/* Bouton Hamburger */
+.nav-btn {
+    display: none;
+}
+
+.nav-btn-label {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px;
+}
+
+.nav-btn-bar {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: #eee;
+    margin: 4px auto;
+    transition: transform 0.3s ease;
+}
+
+/* Liens de la navbar */
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #efefef;
+    padding: 13px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+/* Formulaire de logout */
+.logout-button {
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #ff6f61;
+}
+
+/* Section d'authentification */
+.auth-links a {
+    text-decoration: none;
+    color: #efefef;
+    padding: 10px;
+}
+
+/* Mobile - Hamburger */
+#nav-check {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+    }
+
+    .nav-btn-label {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: #333;
+        border-radius: 5px;
+        position: relative;
+        padding: 10px;
+    }
+
+    .nav-btn-label:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .nav-btn-label > span {
+        display: block;
+        width: 25px;
+        height: 4px;
+        background-color: #eee;
+        margin: 4px auto;
+        transition: transform 0.3s ease;
+    }
+
+    .nav-links {
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        height: 0;
+        overflow: hidden;
+        transition: height 0.3s ease;
+    }
+
+    .nav-links a {
+        width: 100%;
+        display: block;
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+
+    #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+
+    #nav-check:checked ~ .nav-btn-label > span:nth-child(1) {
+        transform: rotate(45deg);
+        position: absolute;
+        top: 10px;
+    }
+
+    #nav-check:checked ~ .nav-btn-label > span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #nav-check:checked ~ .nav-btn-label > span:nth-child(3) {
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 20px;
+    }
+}
+
+
+/* Conteneur principal */
+.container {
+    background-color: #1f1f1f;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    max-width: 900px;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+
+/* Titres principaux */
+.page-title {
+    text-align: center;
+    color: #ff6f61;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+/* Formulaire et sections */
+.form-section {
+    background-color: #2d2d2d;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.form-section h2 {
+    color: #ff6f61;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    color: #c1c1c1;
+    margin-bottom: 8px;
+}
+
+/* Champs de formulaire */
+input, select {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #ff6f61;
+}
+
+/* Style des boutons */
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(45deg, #ff6f61, #ff3e30);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0px 4px 10px rgba(255, 63, 48, 0.3);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 15px rgba(255, 63, 48, 0.5);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0px 2px 8px rgba(255, 63, 48, 0.2);
+}
+
+/* Cards pour événements et covoiturages */
+.event-card {
+    background-color: #2d2d2d;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+}
+
+.card-header h2 {
+    color: #ff6f61;
+    font-size: 1.6rem;
+}
+
+.card-body p {
+    color: #c1c1c1;
+    margin-bottom: 12px;
+}
+
+.carpool-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.carpool-card h4 {
+    color: #ff6f61;
+    font-size: 1.2rem;
+}
+
+.carpool-card p {
+    color: #c1c1c1;
+    margin-bottom: 10px;
+}
+
+.carpool-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.carpool-card li {
+    color: #c1c1c1;
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+    text-align: center;
+    color: #c1c1c1;
+    font-size: 0.9rem;
+}
+
+.footer-credential {
+    padding-top: 20px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #444;
+    margin: 30px 0;
+}
+
+/* Message d'erreur */
+.error-message {
+    color: #ff3e30;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    background-color: #3e0000;
+    border-radius: 8px;
+    border: 2px solid #ff3e30;
+    width: 100%;
+    max-width: 600px;
+    margin: 15px auto;
+    text-align: center;
+    box-shadow: 0px 2px 8px rgba(255, 63, 48, 0.3);
+}
+
+.error-message p {
+    margin: 0;
+}
+
+/* Formulaire de connexion et inscription */
+input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.form-button {
+    padding: 15px;
+    background: linear-gradient(45deg, #ff6f61, #ff3e30);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.form-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 15px rgba(255, 63, 48, 0.5);
+}
+
+.form-button:active {
+    transform: translateY(0);
+    box-shadow: 0px 2px 8px rgba(255, 63, 48, 0.2);
+}
