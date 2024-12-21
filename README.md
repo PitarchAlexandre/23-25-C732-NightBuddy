@@ -1,5 +1,3 @@
-
-
 <h1>NightBuddy 🚗🎶</h1>
 
 <p>Dans le cadre du cours <strong>C732</strong> (gestion), nous devions réaliser un cahier des charges et un Proof of Concept (POC). Nous avons choisi de développer <strong>NightBuddy</strong>, un site et une API pour le covoiturage lors d’événements nocturnes. L’objectif est de faciliter les déplacements vers les événements et d’encourager le covoiturage.</p>
@@ -74,6 +72,20 @@
     <li>Alexandre Pitarch</li>
 </ul>
 
+<h2>Modèles (MCD & MLD)</h2>
+
+<p align="center">
+    <a href="Doc/Schemas/MCD.png">
+        <img src="Doc/Schemas/MCD.png" alt="MCD - Modèle Conceptuel de Données" width="600">
+    </a>
+</p>
+
+<p align="center">
+    <a href="Doc/Schemas/MLD.png">
+        <img src="Doc/Schemas/MLD.png" alt="MLD - Modèle Logique de Données" width="600">
+    </a>
+</p>
+
 <h2>Configuration du projet</h2>
 
 <h3>1. Cloner le dépôt</h3>
@@ -103,5 +115,3 @@
 <hr>
 
 <p>Ce projet a été une expérience enrichissante qui nous a permis de mieux comprendre le processus de création d’une API, de structurer un cahier des charges et de travailler en équipe avec un outil de gestion agile comme Kanban. Nous sommes satisfaits du résultat, notamment grâce à l’apprentissage de Fortify et à la création d’une API fonctionnelle.</p>
-
-
