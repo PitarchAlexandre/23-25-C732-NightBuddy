@@ -63,3 +63,34 @@
 <hr>
 
 <p>Ce projet a été une expérience enrichissante qui nous a permis de mieux comprendre le processus de création d’une API, de structurer un cahier des charges et de travailler en équipe avec un outil de gestion agile comme Kanban. Nous sommes satisfaits du résultat, notamment grâce à l’apprentissage de Fortify et à la création d’une API fonctionnelle.</p>
+
+<h2>Configuration du projet</h2>
+
+<h3>1. Cloner le dépôt</h3>
+<p>Clonez le dépôt Git depuis GitHub :</p>
+<code>git clone https://github.com/username/nightbuddy.git</code>
+
+<h3>2. Installation des dépendances</h3>
+<p>Accédez au répertoire du projet :</p>
+<code>cd nightbuddy</code>
+<p>Installez les dépendances avec Composer :</p>
+<code>composer install</code>
+
+<h3>3. Configuration de l'environnement</h3>
+<p>Créez un fichier `.env` basé sur le fichier `.env.example` :</p>
+<code>cp .env.example .env</code>
+<p>Configurez les paramètres de votre environnement (base de données, clés API, etc.) en modifiant le fichier `.env`.</p>
+
+<h3>4. Migration de la base de données</h3>
+<p>Exécutez les migrations pour créer la base de données :</p>
+<code>php artisan migrate</code>
+
+<h3>5. Serveur de développement</h3>
+<p>Démarrez le serveur de développement Laravel :</p>
+<code>php artisan serve</code>
+<p>Accédez à l’application via votre navigateur : <a href="http://localhost:8000">http://localhost:8000</a></p>
+
+<hr>
+
+<p>Ce projet a été une expérience enrichissante qui nous a permis de mieux comprendre le processus de création d’une API, de structurer un cahier des charges et de travailler en équipe avec un outil de gestion agile comme Kanban. Nous sommes satisfaits du résultat, notamment grâce à l’apprentissage de Fortify et à la création d’une API fonctionnelle.</p>
+
