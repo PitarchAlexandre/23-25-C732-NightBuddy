@@ -70,19 +70,21 @@
 <h2>Ce que nous avons appris</h2>
 
 <ul>
-    <li><strong>Laravel et Fortify</strong>: Nous avons découvert Laravel en parallèle du projet, grâce au cours C132-API. Fortify nous a permis de simplifier l’authentification.</li>
+    <li><strong>Laravel</strong>: Nous avons appris à utiliser Laravel en parallèle du projet, grâce au cours C132-API. Ce projet nous a permis de consolider nos connaissances.</li> 
+    <li><strong>Fortify</strong>: Nous avons utilisé la bibliothèque Fortify pour simplifier l’authentification.</li>
     <li><strong>Organisation avec Kanban</strong>: Nous manquions de connaissances au début, et nous avons utilisé un Kanban dans Microsoft Teams pour gérer les tâches au fil de l’avancement. Cela nous a permis d’avancer étape par étape et d’ajouter des tâches au fur et à mesure. Nous n’aurions pas pu utiliser un diagramme de Gantt, par exemple, car nous n’avions pas suffisamment de connaissances pour planifier les tâches au départ.</li>
-    <li><strong>API et approche</strong>: Nous aurions dû séparer les contrôleurs API et web, mais nous avons dû regrouper les deux à cause du manque de temps. Nous avons également envisagé d’utiliser Sanctum pour sécuriser les API, mais cela n’a pas pu être mis en place faute de temps et en raison des coûts associés à l’API de Google Maps.</li>
+    <li><strong>API et approche</strong>: Nous avons l'opportunité de consilider nos connaissances sur les APIs.</li>
 </ul>
 
 <hr>
 
-<h2>Fonctionnalités manquées (pour le futur)</h2>
-
-<ul>
-    <li><strong>Intégration Google Maps</strong>: Nous avons voulu intégrer Google Maps pour la gestion des lieux et itinéraires de covoiturage, mais avons été freinés par les coûts. Nous avons cherché des alternatives gratuites, mais cela n’a pas été conclu en raison du manque de temps. Nous aurions aussi voulu séparer les contrôleurs des API et ajouter Sanctum, bibliothèque que nous avons utilisé dans le cours C132, mais nous n'avons pas pu non plus dû au manque de temps.</li>
+<h2>Fonctionnalités manquées (pour le futur)</h2> 
+<ul> 
+    <li><strong>Intégration Google Maps</strong>: Nous avons voulu intégrer Google Maps pour la gestion des lieux et itinéraires de covoiturage, mais avons été freinés par les coûts. Nous avons cherché des alternatives gratuites, mais cela n’a pas été conclu en raison du manque de temps.</li>
+    <li><strong>Séparation des contrôleurs API et web</strong>: Nous aurions dû séparer les contrôleurs API et web pour une meilleure organisation et gestion des routes. Cette séparation aurait permis une meilleure modularité et une gestion plus claire des routes dédiées à l’API et celles liées à l’application web. Cependant, en raison du manque de temps, nous avons dû regrouper les deux.</li>
+    <li><strong>Utilisation de Sanctum pour l'authentification API</strong>: Nous avions envisagé d’utiliser Sanctum, une bibliothèque que nous avons déjà utilisée dans le cours C132, pour sécuriser les API. Cela aurait permis une authentification simplifiée et sécurisée. Cependant, nous n’avons pas pu mettre en place Sanctum à cause du manque de temps et des coûts associés à l'API de Google Maps.</li>
 </ul>
-
+ 
 <hr>
 
 <h2>Conclusion</h2>
