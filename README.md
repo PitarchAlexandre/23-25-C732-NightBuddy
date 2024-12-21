@@ -3,7 +3,7 @@
     <img src="https://www.ismaail.com/uploads/9a30e503-e6ce-41ef-956a-a1cbb2e578b0/jCjnyX8N3Iro9jUw45bfeNWIuzq3RW-metaT1lTbmZDMnBzcUxudWR5bUtHV1pMZ0tTbXR6Q1NqMk8zYTBnakZXbS5wbmc=--large.webp" width="400" alt="Laravel Fortify Logos">
     </a>
 </p>
-
+<p><a href="https://laravel.com](https://laravel.com/docs/11.x/fortify" target="_blank">Doc fortify</a></p>
 <h1>NightBuddy 🚗🎶</h1>
 
 <p>Dans le cadre du cours <strong>C732</strong> (gestion), nous devions réaliser un cahier des charges et un Proof of Concept (POC). Nous avons choisi de développer <strong>NightBuddy</strong>, un site et une API pour le covoiturage lors d’événements nocturnes. L’objectif est de faciliter les déplacements vers les événements et d’encourager le covoiturage.</p>
