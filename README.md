@@ -1,5 +1,5 @@
 <h1>NightBuddy 🚗🎶</h1>
-
+<p><a href="Doc/README.en.md">README in english here!</a></p>
 <p>Dans le cadre du cours <strong>C732</strong> (gestion), nous devions réaliser un cahier des charges et un Proof of Concept (POC). Nous avons choisi de développer <strong>NightBuddy</strong>, un site et une API pour le covoiturage lors d’événements nocturnes. L’objectif est de faciliter les déplacements vers les événements et d’encourager le covoiturage. Les compétences acquises parallèlement dans le cours <strong>C132-API</strong> nous ont aidé à accomplir cet objectif.</p>
 
 <p>Les organisateurs d’événements peuvent intégrer cette API à leurs sites web pour encourager les participants à utiliser le covoiturage et ainsi rendre les événements plus accessibles, tout en réduisant les contraintes liées à la conduite.</p>
