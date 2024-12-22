@@ -38,20 +38,20 @@
 <h2>Models</h2>
 <p>Conceptual Data Model (CDM):</p>
 <p align="center">
-    <a href="Doc/Schemas/MCD.png">
-        <img src="Doc/Schemas/MCD.png" alt="CDM - Conceptual Data Model" width="600">
+    <a href="Schemas/MCD.png">
+        <img src="Schemas/MCD.png" alt="CDM - Conceptual Data Model" width="600">
     </a>
 </p>
 <p>Logical Data Model (LDM):</p>
 <p align="center">
-    <a href="Doc/Schemas/MLD.png">
-        <img src="Doc/Schemas/MLD.png" alt="LDM - Logical Data Model" width="600">
+    <a href="Schemas/MLD.png">
+        <img src="Schemas/MLD.png" alt="LDM - Logical Data Model" width="600">
     </a>
 </p>
 <p>Use Case:</p>
 <p align="center">
-    <a href="Doc/Schemas/use-case.png">
-        <img src="Doc/Schemas/UseCase.png" alt="Use Case" width="600">
+    <a href="Schemas/use-case.png">
+        <img src="Schemas/UseCase.png" alt="Use Case" width="600">
     </a>
 </p>
 
