@@ -10,6 +10,7 @@
     </a>
 </p>
 <p><a href="https://laravel.com/docs/11.x/fortify" target="_blank">Documentation Fortify</a></p>
+<p><a href="Doc/Schemas/video-demo-night-buddy.mkv">Lien vers la démo de Night Buddy en vidéo</a></p>
 
 <hr>
 
@@ -80,6 +81,7 @@
 
 <h2>Fonctionnalités manquées (pour le futur)</h2> 
 <ul> 
+	<li><strong>Modification des tables</strong>: Pour rendre l'application pleinement fonctionnelle, il aurait été nécessaire d'ajouter des attributs supplémentaires ainsi que de nouvelles tables. Par exemple, inclure l'adresse complète des utilisateurs ou créer une table associative pour les points de rendez-vous, etc...</li>
     <li><strong>Intégration Google Maps</strong>: Nous avons voulu intégrer Google Maps pour la gestion des lieux et itinéraires de covoiturage, mais avons été freinés par les coûts. Nous avons cherché des alternatives gratuites, mais cela n’a pas été conclu en raison du manque de temps.</li>
     <li><strong>Séparation des contrôleurs API et web</strong>: Nous aurions dû séparer les contrôleurs API et web pour une meilleure organisation et gestion des routes. Cette séparation aurait permis une meilleure modularité et une gestion plus claire des routes dédiées à l’API et celles liées à l’application web. Cependant, en raison du manque de temps, nous avons dû regrouper les deux.</li>
     <li><strong>Utilisation de Sanctum pour l'authentification API</strong>: Nous avions envisagé d’utiliser Sanctum, une bibliothèque que nous avons déjà utilisée dans le cours C132, pour sécuriser les API. Cela aurait permis une authentification simplifiée et sécurisée. Cependant, nous n’avons pas pu mettre en place Sanctum à cause du manque de temps et des coûts associés à l'API de Google Maps.</li>
@@ -125,10 +127,13 @@
 <p>Exécutez les migrations pour créer la base de données :</p>
 <code>php artisan migrate</code>
 
-<h3>6. Serveur de développement</h3>
-<p>Démarrez le serveur de développement Laravel :</p>
-<code>php artisan serve</code>
-<p>Accédez à l’application via votre navigateur : <a href="http://localhost:8000">http://localhost:8000</a></p>
+<h3>6. Insérez des données dans la base de données</h3> 
+<p>Exécutez les migrations pour créer la structure de la base de données :</p>
+<p>Copiez le fichier SQL situé dans <code>Web/public/inserer_donnees.sql</code>, puis exécutez-le dans votre outil de gestion MySQL. Cela ajoutera automatiquement les données nécessaires à la base de données.</p>
+
+<h3>7. Serveur de développement</h3>
+<p>Démarrez votre serveur local (par exemple, Laragon, XAMPP, LAMP, ou tout autre outil de votre choix) pour héberger l'application :</p>
+<p>Accédez à l’application via votre navigateur à l’adresse correspondante, généralement : <a href="http://localhost">http://localhost</a></p>
 
 <hr>
 
