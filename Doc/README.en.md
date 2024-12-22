@@ -128,7 +128,7 @@
 <code>php artisan migrate</code>
 
 <h3>6. Insert Data into the Database</h3> 
-<p>Copy the SQL file located at <code>Web/public/inserer_donnees.sql</code>, then execute it in your MySQL management tool. This will automatically populate the database with the required data.</p>
+<p>Copy the SQL file located at <code>Web/public/inserer_donnees.sql</code>, then execute it in your MySQL management tool. This will populate the database with the necessary data to simulate the website's usage.</p>
 
 <h3>7. Development Server</h3>
 <p>Start your local server (e.g., Laragon, XAMPP, LAMP, or any other tool of your choice) to host the application:</p>
