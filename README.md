@@ -10,7 +10,7 @@
     </a>
 </p>
 <p><a href="https://laravel.com/docs/11.x/fortify" target="_blank">Documentation Fortify</a></p>
-<p><a href="Doc/Schemas">Lien vers la démo de Night Buddy en vidéo</a></p>
+<p><a href="Doc/Presentation/video-demo-night-buddy.mkv">Lien vers la démo de Night Buddy en vidéo</a></p>
 
 <hr>
 
