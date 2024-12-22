@@ -129,7 +129,7 @@
 
 <h3>6. Insérez des données dans la base de données</h3> 
 <p>Exécutez les migrations pour créer la structure de la base de données :</p>
-<p>Copiez le fichier SQL situé dans <code>Web/public/inserer_donnees.sql</code>, puis exécutez-le dans votre outil de gestion MySQL. Cela ajoutera automatiquement les données nécessaires à la base de données.</p>
+<p>Copiez le fichier SQL situé dans <code>Web/public/inserer_donnees.sql</code>, puis exécutez-le dans votre outil de gestion MySQL. Cela ajoutera les données nécessaires à la base de données pour simuler l'utilisation du site.</p>
 
 <h3>7. Serveur de développement</h3>
 <p>Démarrez votre serveur local (par exemple, Laragon, XAMPP, LAMP, ou tout autre outil de votre choix) pour héberger l'application :</p>
