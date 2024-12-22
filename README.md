@@ -59,7 +59,7 @@
 <h2>Technologies utilisées</h2>
 
 <ul>
-    <li><strong>Framework</strong>: Laravel 10</li>
+    <li><strong>Framework</strong>: Laravel 10.48.25</li>
     <li><strong>Authentification</strong>: Laravel Fortify</li>
     <li><strong>Base de données</strong>: MySQL</li>
     <li><strong>Organisation</strong>: Kanban via Microsoft Teams</li>
